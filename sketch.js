@@ -29,8 +29,8 @@ function draw() {
   nave.mostrar();
 
 
-  if (keyIsDown(LEFT_ARROW))  nave.angulo -= 0.05;
-  if (keyIsDown(RIGHT_ARROW)) nave.angulo += 0.05;
+  if (keyIsDown(LEFT_ARROW))  nave.angulo -= 0.03;
+  if (keyIsDown(RIGHT_ARROW)) nave.angulo += 0.03;
 }
 function keyPressed() {
   if (keyCode === 32) { 
